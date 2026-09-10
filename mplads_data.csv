@@ -1,0 +1,116 @@
+Project_ID,Constituency,Project_Name,Category,Sanctioned_Cost_Lakhs,Disbursed_Cost_Lakhs,Physical_Progress_Percent,Start_Date,Expected_End_Date,Status,Anomaly_Type
+MPLAD001,Varanasi,Installation of 10 Handpumps,Drinking Water,5.50,5.50,100,2023-01-10,2023-04-10,Completed,None
+MPLAD002,Lucknow,Primary School Boundary Wall,Education,12.00,6.00,45,2023-11-05,2024-03-05,Completed,None
+MPLAD003,New Delhi,Open Gym in Park,Public Utilities,8.50,8.50,100,2023-02-15,2023-05-15,Completed,None
+MPLAD004,Pune,Bus Shelter Construction,Roads,4.00,2.00,50,2024-01-10,2024-04-10,In Progress,None
+MPLAD005,Bhopal,Anganwadi Center Upgradation,Health,15.00,7.50,60,2023-09-01,2024-02-01,Completed,None
+MPLAD006,Jaipur,High Mast Light Installation,Public Utilities,6.25,6.25,100,2023-06-20,2023-08-20,Completed,None
+MPLAD007,Patna,Concrete Road in Block A,Roads,25.00,10.00,40,2024-03-01,2024-09-01,In Progress,None
+MPLAD008,Wayanad,Drinking Water Pipeline,Drinking Water,18.00,9.00,45,2024-02-15,2024-10-15,In Progress,None
+MPLAD009,Amethi,Public Toilet Complex,Sanitation,10.00,5.00,60,2023-12-01,2024-04-01,Completed,None
+MPLAD010,Hyderabad,Government Hospital Ambulance,Health,22.00,22.00,100,2023-05-10,2023-06-10,Completed,None
+MPLAD011,Chennai Central,Smart Classroom Equipment,Education,20.00,19.50,5,2023-08-01,2024-02-01,In Progress,Financial Leakage
+MPLAD012,Bangalore South,Storm Water Drain Repair,Sanitation,14.00,7.00,55,2024-01-20,2024-06-20,In Progress,None
+MPLAD013,Mumbai North,Community Hall Repair,Public Utilities,16.50,8.25,45,2024-02-10,2024-07-10,In Progress,None
+MPLAD014,Kolkata Dakshin,New Tube Wells in Ward 5,Drinking Water,7.00,3.50,50,2024-03-15,2024-06-15,In Progress,None
+MPLAD015,Pune,Construction of Community Hall in Ward 4,Public Utilities,25.00,10.00,35,2023-10-10,2024-04-10,In Progress,Duplicate work
+MPLAD016,Ahmedabad West,Solar Panels for Govt College,Education,30.00,15.00,60,2023-11-25,2024-05-25,In Progress,None
+MPLAD017,Varanasi,Rural Health Clinic,Health,45.00,20.00,40,2024-01-05,2024-12-05,In Progress,None
+MPLAD018,Lucknow,Paving of Market Road,Roads,35.00,35.00,100,2023-03-10,2023-09-10,Completed,None
+MPLAD019,New Delhi,CCTV Camera Installation,Public Utilities,12.00,6.00,50,2024-04-01,2024-08-01,In Progress,None
+MPLAD020,Pune,Public Library Furniture,Education,5.00,5.00,100,2023-07-15,2023-09-15,Completed,None
+MPLAD021,Bhopal,Sewer Line Extension,Sanitation,28.00,14.00,45,2024-02-20,2024-10-20,In Progress,None
+MPLAD022,Jaipur,Renovation of Sports Complex,Public Utilities,15.00,60.00,85,2023-05-15,2024-01-15,In Progress,Severe cost overrun
+MPLAD023,Patna,Water Purification Plant,Drinking Water,40.00,20.00,50,2023-10-05,2024-08-05,In Progress,None
+MPLAD024,Wayanad,Footbridge Construction,Roads,18.00,18.00,100,2023-01-20,2023-06-20,Completed,None
+MPLAD025,Amethi,Village Electrification Expansion,Public Utilities,22.50,11.00,40,2024-01-15,2024-07-15,In Progress,None
+MPLAD026,Hyderabad,Women Empowerment Center,Education,35.00,17.50,55,2023-09-10,2024-05-10,In Progress,None
+MPLAD027,Chennai Central,Park Beautification,Public Utilities,8.00,4.00,45,2024-03-05,2024-06-05,In Progress,None
+MPLAD028,Jaipur,Solar Street Lights Installation Phase 1,Public Utilities,15.00,7.50,40,2023-11-01,2024-03-01,In Progress,Duplicate work
+MPLAD029,Mumbai North,Slum Sanitation Project,Sanitation,50.00,25.00,50,2023-12-15,2024-10-15,In Progress,None
+MPLAD030,Kolkata Dakshin,Primary School Desks,Education,4.50,4.50,100,2023-06-10,2023-07-10,Completed,None
+MPLAD031,Ahmedabad West,Maternity Ward Upgradation,Health,25.00,12.50,30,2021-08-10,2022-05-01,In Progress,Extreme delay
+MPLAD032,Varanasi,Bicycle Tracks in University,Roads,16.00,8.00,45,2024-01-10,2024-05-10,In Progress,None
+MPLAD033,Lucknow,Garbage Disposal Vehicles,Sanitation,20.00,20.00,100,2023-04-15,2023-05-15,Completed,None
+MPLAD034,New Delhi,Senior Citizen Recreation Center,Public Utilities,14.00,7.00,60,2023-10-20,2024-04-20,In Progress,None
+MPLAD035,Pune,Overhead Water Tank,Drinking Water,32.00,16.00,45,2023-12-05,2024-09-05,In Progress,None
+MPLAD036,Bhopal,Culvert Construction over Nala,Roads,11.50,11.50,100,2023-02-10,2023-06-10,Completed,None
+MPLAD037,Jaipur,X-Ray Machine for Govt Clinic,Health,18.00,18.00,100,2023-08-15,2023-09-15,Completed,None
+MPLAD038,Patna,Computer Labs in 5 Schools,Education,40.00,38.00,2,2023-07-10,2023-12-10,In Progress,Financial leakage
+MPLAD039,Wayanad,Tractor for Panchayat,Public Utilities,9.00,9.00,100,2023-03-25,2023-04-25,Completed,None
+MPLAD040,Amethi,Rural Roads Resurfacing,Roads,45.00,22.50,55,2023-11-15,2024-08-15,In Progress,None
+MPLAD041,Hyderabad,Drainage System Overhaul,Sanitation,30.00,15.00,40,2024-02-01,2024-11-01,In Progress,None
+MPLAD042,Chennai Central,Rainwater Harvesting Structures,Drinking Water,12.00,6.00,60,2023-09-20,2024-02-20,Completed,None
+MPLAD043,Bangalore South,Auditorium Acoustic Paneling,Public Utilities,20.00,10.00,50,2024-01-10,2024-06-10,In Progress,None
+MPLAD044,Mumbai North,Blood Bank Refrigeration Unit,Health,8.50,8.50,100,2023-05-12,2023-07-12,Completed,None
+MPLAD045,Kolkata Dakshin,Village Connecting Road,Roads,20.00,55.00,75,2023-04-10,2023-11-10,In Progress,Severe cost overrun
+MPLAD046,Ahmedabad West,E-Rickshaws for Disabled,Public Utilities,15.00,15.00,100,2023-10-05,2023-11-05,Completed,None
+MPLAD047,Varanasi,School Laboratory Equipment,Education,10.00,5.00,45,2024-02-15,2024-05-15,In Progress,None
+MPLAD048,Lucknow,Public Park Fencing,Public Utilities,6.00,3.00,50,2024-03-01,2024-06-01,In Progress,None
+MPLAD049,New Delhi,Vaccination Camp Tents and Gear,Health,3.50,3.50,100,2023-01-20,2023-02-20,Completed,None
+MPLAD050,Pune,Water ATM Installations,Drinking Water,14.00,7.00,55,2023-12-10,2024-05-10,In Progress,None
+MPLAD051,Bhopal,Market Area Street Lighting,Public Utilities,11.00,5.50,60,2023-11-20,2024-02-20,Completed,None
+MPLAD052,Jaipur,Veterinary Dispensary,Health,22.00,11.00,40,2024-01-05,2024-09-05,In Progress,None
+MPLAD053,Patna,Underground Cabling,Public Utilities,35.00,17.50,45,2023-10-15,2024-07-15,In Progress,None
+MPLAD054,Wayanad,Tribal Hostel Construction,Education,48.00,24.00,50,2023-12-01,2024-10-01,In Progress,None
+MPLAD055,Amethi,Rural Dispensary Upgrades,Health,15.00,15.00,0,2023-06-15,2023-12-15,In Progress,Financial leakage
+MPLAD056,Hyderabad,Pedestrian Pathway,Roads,16.50,16.50,100,2023-03-10,2023-07-10,Completed,None
+MPLAD057,Chennai Central,Public Lavatories Phase 2,Sanitation,12.00,6.00,45,2024-02-20,2024-06-20,In Progress,None
+MPLAD058,Bangalore South,Lake Desilting Project,Public Utilities,25.00,12.50,55,2023-11-10,2024-04-10,In Progress,None
+MPLAD059,Mumbai North,Oxygen Plant in Hospital,Health,45.00,45.00,100,2023-02-01,2023-05-01,Completed,None
+MPLAD060,Kolkata Dakshin,Handloom Weaver Sheds,Public Utilities,18.00,9.00,60,2023-09-15,2024-03-15,Completed,None
+MPLAD061,Ahmedabad West,Primary School Toilets,Sanitation,8.00,4.00,50,2024-01-12,2024-04-12,In Progress,None
+MPLAD062,Varanasi,Passenger Waiting Hall at Station,Public Utilities,20.00,10.00,40,2024-03-10,2024-08-10,In Progress,None
+MPLAD063,Lucknow,Pond Rejuvenation,Public Utilities,14.50,7.25,45,2024-02-05,2024-07-05,In Progress,None
+MPLAD064,New Delhi,Community Center Expansion,Public Utilities,30.00,15.00,45,2020-05-10,2021-11-15,In Progress,Extreme delay
+MPLAD065,Pune,Fire Tender Purchase,Public Utilities,28.00,28.00,100,2023-07-20,2023-09-20,Completed,None
+MPLAD066,Bhopal,Canal Bridge Construction,Roads,35.00,17.50,50,2023-10-01,2024-06-01,In Progress,None
+MPLAD067,Pune,Construction of Community Hall in Ward 4,Public Utilities,25.00,12.50,20,2024-01-15,2024-07-15,In Progress,Duplicate work
+MPLAD068,Jaipur,Mobile Medical Van,Health,16.00,16.00,100,2023-06-10,2023-08-10,Completed,None
+MPLAD069,Patna,Sports Ground Leveling,Public Utilities,9.00,4.50,60,2023-11-05,2024-02-05,Completed,None
+MPLAD070,Wayanad,Drinking Water Kiosks,Drinking Water,11.00,5.50,45,2024-03-20,2024-07-20,In Progress,None
+MPLAD071,Amethi,Rural Electrification Wires,Public Utilities,10.00,42.00,80,2023-02-15,2023-08-15,In Progress,Severe cost overrun
+MPLAD072,Hyderabad,Anganwadi Nutritional Kits,Health,5.00,5.00,100,2023-08-05,2023-09-05,Completed,None
+MPLAD073,Chennai Central,Crematorium Modernization,Public Utilities,22.00,11.00,50,2023-12-10,2024-06-10,In Progress,None
+MPLAD074,Bangalore South,Library Book Procurement,Education,4.00,4.00,100,2023-10-20,2023-11-20,Completed,None
+MPLAD075,Mumbai North,Sewer Cleaning Machines,Sanitation,15.50,15.50,100,2023-04-15,2023-06-15,Completed,None
+MPLAD076,Kolkata Dakshin,Canal Embankment Protection,Public Utilities,40.00,20.00,45,2024-01-05,2024-10-05,In Progress,None
+MPLAD077,Ahmedabad West,Zebra Crossing Painting,Roads,2.50,2.50,100,2023-11-10,2023-12-10,Completed,None
+MPLAD078,Varanasi,Skill Development Center,Education,32.00,16.00,40,2024-02-25,2024-11-25,In Progress,None
+MPLAD079,Lucknow,Orphanage Dormitory Extension,Public Utilities,18.00,9.00,55,2023-09-20,2024-04-20,In Progress,None
+MPLAD080,New Delhi,Cataract Surgery Camp Setup,Health,6.50,6.50,100,2023-03-05,2023-04-05,Completed,None
+MPLAD081,Pune,Mid-Day Meal Kitchen Shed,Education,50.00,50.00,10,2023-05-10,2023-11-10,In Progress,Financial leakage
+MPLAD082,Bhopal,Public Water Coolers,Drinking Water,7.50,3.75,60,2023-12-15,2024-03-15,Completed,None
+MPLAD083,Jaipur,Dispensary Building Expansion,Health,26.00,13.00,45,2024-01-20,2024-08-20,In Progress,None
+MPLAD084,Jaipur,Solar Street Lights Installation Phase 1,Public Utilities,15.00,8.00,25,2024-02-10,2024-06-10,In Progress,Duplicate work
+MPLAD085,Patna,Rickshaw Stand Construction,Public Utilities,5.00,2.50,50,2024-04-05,2024-07-05,In Progress,None
+MPLAD086,Wayanad,Hanging Bridge Repair,Roads,14.00,14.00,100,2023-06-15,2023-10-15,Completed,None
+MPLAD087,Amethi,Block Office Solar Power,Public Utilities,20.00,10.00,60,2023-10-10,2024-02-10,Completed,None
+MPLAD088,Hyderabad,Blind School Teaching Aids,Education,8.00,8.00,100,2023-07-25,2023-08-25,Completed,None
+MPLAD089,Chennai Central,Beach Cleaning Equipment,Sanitation,12.50,6.25,50,2024-01-15,2024-05-15,In Progress,None
+MPLAD090,Bangalore South,Metro Station Feeder Bus,Public Utilities,25.00,25.00,100,2023-05-20,2023-08-20,Completed,None
+MPLAD091,Mumbai North,Municipal School Renovation,Education,30.00,15.00,45,2024-02-05,2024-09-05,In Progress,None
+MPLAD092,Kolkata Dakshin,Ward Health Clinic Building,Health,18.00,18.00,100,2023-01-15,2023-06-15,Completed,None
+MPLAD093,Ahmedabad West,Sports Stadium Seating,Public Utilities,25.00,80.00,90,2023-04-10,2023-12-10,In Progress,Severe cost overrun
+MPLAD094,Varanasi,Cultural Event Stage,Public Utilities,10.00,5.00,50,2024-03-20,2024-06-20,In Progress,None
+MPLAD095,Lucknow,Women's College Washrooms,Sanitation,15.00,7.50,60,2023-11-10,2024-03-10,Completed,None
+MPLAD096,New Delhi,Park Jogging Track,Roads,12.00,12.00,100,2023-02-20,2023-05-20,Completed,None
+MPLAD097,Pune,Science Lab Apparatus,Education,7.00,3.50,45,2024-01-25,2024-04-25,In Progress,None
+MPLAD098,Bhopal,Street Dogs Sterilization Van,Health,9.50,9.50,100,2023-08-01,2023-10-01,Completed,None
+MPLAD099,Jaipur,Sub-way Construction,Roads,45.00,22.50,15,2020-01-15,2022-08-20,In Progress,Extreme delay
+MPLAD100,Patna,Agri-Market Shed,Public Utilities,24.00,12.00,50,2024-02-15,2024-08-15,In Progress,None
+MPLAD101,Varanasi,Riverfront Development,Public Utilities,50.00,45.00,10,2023-01-15,2023-10-15,In Progress,Financial leakage
+MPLAD102,Lucknow,Smart Streetlights,Public Utilities,20.00,50.00,80,2023-05-10,2023-11-10,In Progress,Severe cost overrun
+MPLAD103,New Delhi,Community Wi-Fi,Education,15.00,14.00,5,2023-08-01,2024-01-01,In Progress,Financial leakage
+MPLAD104,Pune,Hospital Annex,Health,40.00,40.00,15,2023-02-20,2023-12-20,In Progress,Extreme delay
+MPLAD105,Bhopal,Bus Terminal,Roads,35.00,75.00,90,2023-06-15,2024-02-15,In Progress,Severe cost overrun
+MPLAD106,Jaipur,Library Computers,Education,12.00,11.50,0,2023-11-01,2024-04-01,In Progress,Financial leakage
+MPLAD107,Patna,Water Treatment Plant,Drinking Water,45.00,90.00,85,2023-03-10,2023-12-10,In Progress,Severe cost overrun
+MPLAD108,Wayanad,Tribal School Roof,Education,18.00,17.00,10,2023-09-15,2024-03-15,In Progress,Financial leakage
+MPLAD109,Amethi,Market Paving,Roads,25.00,25.00,20,2022-05-10,2022-11-10,In Progress,Extreme delay
+MPLAD110,Hyderabad,Sewer Upgrades,Sanitation,30.00,65.00,75,2023-07-20,2024-01-20,In Progress,Severe cost overrun
+MPLAD111,Chennai Central,Public Park Gym,Public Utilities,10.00,9.50,5,2023-12-05,2024-05-05,In Progress,Financial leakage
+MPLAD112,Bangalore South,Drainage Repair,Sanitation,22.00,55.00,80,2023-04-15,2023-10-15,In Progress,Severe cost overrun
+MPLAD113,Mumbai North,Slum Clinic,Health,28.00,27.00,15,2023-08-25,2024-02-25,In Progress,Financial leakage
+MPLAD114,Kolkata Dakshin,Pond Desilting,Public Utilities,15.00,40.00,90,2023-01-10,2023-06-10,In Progress,Severe cost overrun
+MPLAD115,Ahmedabad West,Solar Pump Installation,Drinking Water,35.00,34.00,10,2023-10-20,2024-04-20,In Progress,Financial leakage
