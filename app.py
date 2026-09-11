@@ -30,7 +30,6 @@ if not st.session_state.authenticated:
         with st.form("login_form"):
             st.write("### Authorized Officer Login")
             officer_id = st.text_input("Govt Officer ID / NIC Mail", value="officer.audit@nic.in")
-            # PASSWORD VALUE REMOVED - You must type it manually now
             password = st.text_input("Password", type="password") 
             submit = st.form_submit_button("Verify & Access Dashboard")
             
@@ -50,11 +49,21 @@ if not st.session_state.authenticated:
 # ---------------------------------------------------------
 current_time = datetime.datetime.now().strftime("%d %b %Y, %I:%M %p")
 
-st.sidebar.header("⚙️ Portal Settings / सेटिंग्स")
+# --- NEW CIRCULAR PROFILE IN SIDEBAR ---
+st.sidebar.markdown("""
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="90" style="border-radius: 50%; border: 3px solid #2ecc71; padding: 2px;">
+    <h3 style="margin-bottom: 0px; padding-bottom: 0px; margin-top: 10px;">Auditor General</h3>
+    <p style="color: #888; font-size: 14px; margin-top: 0px;">MoSPI Vigilance HQ</p>
+</div>
+""", unsafe_allow_html=True)
+
+st.sidebar.header("⚙️ Portal Settings")
 lang = st.sidebar.radio("Display Language / भाषा चुनें", ["English", "हिन्दी"])
 
 st.title("SIH26102: MoSPI - AI Anomaly & Fraud Detection for MPLADS" if lang == "English" else "सांख्यिकी मंत्रालय - एमपीलैड्स एआई विसंगति एवं धोखाधड़ी निगरानी")
-st.markdown(f"**Team: COGNITIVE CREW | 🟢 Live Server Sync:** {current_time} | **Officer:** `audit_hq@nic.in`")
+# REMOVED OFFICER EMAIL FROM HEADER
+st.markdown(f"**Team: COGNITIVE CREW | 🟢 Live Server Sync:** {current_time}")
 
 if st.sidebar.button("🔒 Logout (e-Pramaan SSO)"):
     st.session_state.authenticated = False
@@ -86,20 +95,12 @@ if not df.empty:
     # SIDEBAR & AI ENGINE
     # ---------------------------------------------------------
     st.sidebar.markdown("---")
-    st.sidebar.subheader("Auditor Control Panel")
+    st.sidebar.subheader("AI Control Panel")
     contamination_rate = st.sidebar.slider("AI Detection Sensitivity", min_value=0.05, max_value=0.50, value=0.20, step=0.05)
-    
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("📡 Live System Logs")
-    st.sidebar.code(f"""[{datetime.datetime.now().strftime("%H:%M:%S")}] e-SAKSHI: CONNECTED
-[{datetime.datetime.now().strftime("%H:%M:%S")}] CPGRAMS Sync: OK
-[{datetime.datetime.now().strftime("%H:%M:%S")}] Isolation Forest @ {int(contamination_rate*100)}%
-[{datetime.datetime.now().strftime("%H:%M:%S")}] ISRO Bhuvan: STDBY""", language="bash")
     
     st.sidebar.markdown("---")
     st.sidebar.subheader("📱 Citizen Transparency QR")
     
-    # NEW QR CODE LINK 
     qr_data = urllib.parse.quote("https://egovernance.vikaspedia.in/viewcontent/e-governance/online-citizen-services/mplads%E2%80%93esakshi-web-portal?lgn=en")
     qr_url = f"https://api.qrserver.com/v1/create-qr-code/?size=140x140&data={qr_data}"
     st.sidebar.image(qr_url, caption="Scan to view public portal")
@@ -251,7 +252,6 @@ if not df.empty:
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Active Projects", len(df))
         col2.metric("High-Risk Alerts", high_risk_count, delta=f"{cleared_count} Overridden" if cleared_count > 0 else "Urgent", delta_color="inverse")
-        # CHANGED: "Human Interventions" replaced with "Low-Risk Warnings"
         col3.metric("Low-Risk Warnings", low_risk_count, delta="Watchlist", delta_color="off")
         col4.metric("Taxpayer ROI", f"₹{at_risk_funds:,.2f} L", delta="Saved", delta_color="normal")
         st.markdown("---")
@@ -339,18 +339,6 @@ if not df.empty:
 
     # --- TAB 3: VISUALS ---
     with tab3:
-        st.subheader("Decision Landscape")
-        color_map = {'Normal': '#2ecc71', 'Low Risk': '#f1c40f', 'High Risk': '#e74c3c', 'Cleared (MLOps)': '#3498db'}
-        fig_scatter = px.scatter(
-            df, x='Disbursed_Cost_Lakhs', y='Physical_Progress_Percent',
-            color='Risk_Level', color_discrete_map=color_map,
-            hover_name='Project_ID', hover_data=['Constituency', 'Contractor', 'Citizen_Grievances'],
-            title="AI Decision Landscape: Disbursed Funds vs. Ground Completion %",
-            labels={'Disbursed_Cost_Lakhs': 'Disbursed Cost (₹ Lakhs)', 'Physical_Progress_Percent': 'Physical Progress (%)', 'Risk_Level': 'Risk Tier'}
-        )
-        st.plotly_chart(fig_scatter, width="stretch")
-        
-        st.markdown("---")
         st.subheader("Sectoral Fund Outlay")
         category_df = df.groupby('Category')[['Sanctioned_Cost_Lakhs', 'Disbursed_Cost_Lakhs']].sum().reset_index()
         fig_bar = px.bar(
