@@ -159,7 +159,7 @@ if not df.empty:
         'Risk_Level': 'Risk Tier', 'AI_Reasoning': 'AI Reasoning'
     }
     
-    ui_display_cols = ['Project ID', 'Constituency', 'Contractor', 'Sanctioned Cost', 'Disbursed Cost', 'Physical Progress', 'Risk Tier', 'AI Reasoning']
+    ui_display_cols = ['Project ID', 'Constituency', 'Contractor', 'Sanctioned Cost', 'Disbursed Cost', 'Physical Progress', 'Citizen Complaints', 'Risk Tier', 'AI Reasoning']
     col_config = {
         "Sanctioned Cost": st.column_config.NumberColumn("Sanctioned Cost", format="₹ %.2f L"),
         "Disbursed Cost": st.column_config.NumberColumn("Disbursed Cost", format="₹ %.2f L"),
