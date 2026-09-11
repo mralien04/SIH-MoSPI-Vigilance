@@ -47,7 +47,9 @@ if not st.session_state.authenticated:
 # ---------------------------------------------------------
 # AUTHENTICATED DASHBOARD EXECUTION
 # ---------------------------------------------------------
-current_time = datetime.datetime.now().strftime("%d %b %Y, %I:%M %p")
+# Force Indian Standard Time (UTC + 5:30)
+ist_offset = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+current_time = datetime.datetime.now(ist_offset).strftime("%d %b %Y, %I:%M %p IST")
 
 # --- NEW CIRCULAR PROFILE IN SIDEBAR ---
 st.sidebar.markdown("""
